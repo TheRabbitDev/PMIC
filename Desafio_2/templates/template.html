@@ -2,26 +2,24 @@
 <html lang='pt-br'>
 
 <head>
-    {% block title %}
+    <title>{% block title %} {% endblock %}</title>
     
-    {% endblock %}
-    <!--Meta-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--CSS-->
-    <link href="/PMIC/Desafio_2/CSS/normalize.css" rel="stylesheet">
-    <link href="/PMIC/Desafio_2/CSS/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url_for('static' ,filename = './CSS/normalize.css')}}">
+    <link rel="stylesheet" href="{{url_for('static' ,filename = './CSS/style.css')}}">
 </head>
 
 <body class="{% block bodytype %} {% endblock %}">
-   <!--Common Between All pages-->
+
     <div id="header">
         <hr style="color:#7279AD; border: 0px; border-style: solid;border-color: #7279AD;">
-        <img src="/PMIC/Desafio_2/Imagens/logo.png" alt="logo" id="logo">
+        <img src="../static/imagens/logo.png" alt="logo" id="logo">
         <div id="nav">
-            <a href="/home">Home |</a>
-            <a href="/quemsomos">Quem Somos |</a>
-            <a href="/contato">Contato</a>
+            <a href="/">Home |</a>
+            <a href="pagina_2">Quem Somos |</a>
+            <a href="pagina_1">Contato</a>
         </div>
     </div>  
 

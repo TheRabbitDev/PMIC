@@ -1,5 +1,5 @@
 body{
-    background-image: url(/Desafio_1/Imagens/fundo2.png);
+    background-image: url(../imagens/fundo2.png);
     background-size: 159.9px;
     background-color: white;
     padding: 0;
@@ -8,7 +8,7 @@ body{
     border: 0px solid red;
 }
 body.home{
-    background-image: url(/Desafio_1/Imagens/fundo.png);
+    background-image: url(../imagens/fundo.png);
     background-size: 159.9px;
     background-color: #EFEFEF;
     padding: 0;
@@ -46,4 +46,9 @@ a{
 #copyright{
     text-align: center;
     font-weight: bold;
+}
+
+#nav{
+    align-self: left;
+    position: relative
 }
