@@ -1,0 +1,33 @@
+{% extends 'template.html' %}
+
+{% block title %}
+<title>Unes Universidade - Contato</title>
+{% endblock %}
+
+{% block content %}
+
+<div>
+    <h1>Entre em contato</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eveniet nam illum perferendis molestiae, iure
+        incidunt mollitia! Cum ab esse animi quae, nihil distinctio, ipsa illum dignissimos, nisi voluptatum nobis.</p>
+</div>
+
+<hr>
+
+<form>
+    <label for="email">Seu e-mail:</label>
+    <br>
+    <input type="text" id="email" name="email">
+    <br>
+    <label for="subject">Assunto:</label>
+    <br>
+    <input type="text" id="subject" name="subject">
+    <br>
+    <label for="description">Descrição:</label>
+    <br>
+    <textarea id="description" name="description" rows="4" cols="30"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+</form>
+
+{% endblock %}
