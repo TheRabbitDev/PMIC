@@ -1,0 +1,28 @@
+{% extends 'template.html' %}
+
+{% block title %}
+<title>Unes Universidade - Usuários</title>
+{% endblock %}
+
+{% block content %}
+    <table>
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Assunto</th>
+                <th>Descricao</th>
+            </tr>
+        </thead>
+
+        {% for user in userData %}
+        <tbody>
+            <tr>
+                <th>{{user[1]}}</th>
+                <th>{{user[2]}}</th>
+                <th>{{user[3]}}</th>
+            </tr>
+        </tbody>
+        {% endfor %}
+
+    </table>
+{% endblock %}

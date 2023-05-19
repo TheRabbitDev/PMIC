@@ -1,0 +1,54 @@
+body{
+    background-image: url(../imagens/fundo2.png);
+    background-size: 159.9px;
+    background-color: white;
+    padding: 0;
+    margin: 0 auto;
+    width: 1200px;
+    border: 0px solid red;
+}
+body.home{
+    background-image: url(../imagens/fundo.png);
+    background-size: 159.9px;
+    background-color: #EFEFEF;
+    padding: 0;
+    margin: 0 auto;
+    width: 1200px;
+    border: 0px solid red;
+}
+a{
+    text-align: center;
+}
+#header{
+    background-color: white; 
+    height: 130px;
+}
+#logo{
+    align-self: left;
+    padding-left: 20px; 
+    position: absolute; 
+    padding-top: 20px;
+}
+.banner{
+    width:1190px;
+    position: relative;
+}
+.textbox{
+    background-color: white; 
+    width: 1200px; 
+    align-self: left; 
+    height: fit-content; 
+    position: absolute;
+}
+.textbox > p{
+    padding: 10px;  
+}
+#copyright{
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav{
+    align-self: left;
+    position: relative
+}
